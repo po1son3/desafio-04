@@ -4,15 +4,178 @@
     <meta charset="UTF-8" />
     
 
-    <title>Vite App</title>
+    <title>Afiliación</title>
   </head>
   <body>
+<h1>Veni al Gym</h1>
+<form action="#post" method="post">
+
+<!-- Datos de Personales -->
+
+<fieldset>
+
+  <legend>Datos Personales</legend>
+  <div>
+
+    
+    <div>
+      
+  
+      <label for="lbl-nombre">Nombre*</label>
+      <input id="lbl-nombre" type="text" required>
+      
+      
+    </div>
+    
+    <div>
+      
+      
+      <label for="lbl-apellido">Apellido*</label>
+      <input id="lbl-apellido" type="text" required>
+      
+      
+    </div>
+    
+    <div>
+      
+      
+      <label for="lbl-documento">Documento*</label>
+      <input id="lbl-documento" type="text" required>
+      
+      
+    </div>
+    
+    <div>
+      
+      
+      
+      <label for="lbl-nacionalidad">Nacionalidad*</label>
+      <!-- boton raro -->
+      <button>- Selecciona una opción - ▼ </button>
+
+     <!--  <input id="lbl-nacionalidad" type="" required> -->
 
 
 
+      
+    </div>
+    <div>
+      
+      
+      <label for="">Contanos un poco de vos...</label>
+      <textarea name="" id=""></textarea>
+      
+      
+    </div>
+<p>Sexo: *</p>
+      <div>
+        <input type="radio" name="Femenino">
+        <label for="Femenino">Femenino</label>
+        
+        <input type="radio" name="Masculino">
+        <label for="Masculino">Masculino</label>
+
+        <input type="radio" name="Otro">
+        <label for="Otro">Otro</label>
+      </div>
+</div>
+</fieldset>
+
+
+<!-- Datos de contacto -->
+
+<fieldset>
+  
+  <legend>Datos de Contacto</legend>
+  <div>
+    
+    <div>
+      
+      
+      <label for="Teléfono">Teléfono</label>
+      <input type="tel" placeholder="Código de área y número">
+      
+      
+    </div>
+    
+    <div>
+      
+    
+        <label for="">Dirección de correo electrónico*</label>
+        <input type="email" required placeholder="Ej: mail@gmail.com">
+      
+  
+    </div>
+  
+</div>
+</fieldset>
 
 
 
-    <script type="module" src="/main.js"></script>
-  </body>
+<!-- Actividades -->
+
+<fieldset>
+
+  <legend>Actividades</legend>
+  <p>Por favor, indicá cuáles actividades te interesan:</p></p>
+  <div>
+
+    <div>
+      
+  <p>Sede Palermo:</p>
+        <input type="checkbox" name="Básquet">
+        <label for="Básquet">Básquet</label>
+
+        <input type="checkbox" name="Boxeo">
+        <label for="Boxeo">Boxeo</label>
+
+        <input type="checkbox" name="Fútbol">
+        <label for="Fútbol">Fútbol</label>
+
+        <input type="checkbox" name="Tenis">
+        <label for="Tenis">Tenis</label>
+      
+    
+    </div>
+
+    <div>
+      
+  <p>Sede Rosario:</p>
+        <input type="checkbox" name="Básquet">
+        <label for="Básquet">Básquet</label>
+
+        <input type="checkbox" name="Fútbol">
+        <label for="Fútbol">Fútbol</label>
+
+        <input type="checkbox" name="Rugby">
+        <label for="Rugby">Rugby</label>
+
+
+        <input type="checkbox" name="Voley">
+        <label for="Voley">Voley</label>
+      
+    
+    </div>
+        
+</div>
+</fieldset>
+
+<div>
+<input type="checkbox" required>
+<label for="">Acepto las condiciones*</label>
+</div>
+
+<div>
+<input type="checkbox">
+<label for="">Deseo recibir novedades</label>
+</div>
+
+<p>*: campo obligatorio.</p>
+<button type="submit">Iniciar afiliación</button>
+<button type="reset">Restablecer</button>
+</for>
+
+
+<script type="module" src="/main.js"></script>
+</body>
 </html>
