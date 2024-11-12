@@ -1,3 +1,7 @@
+select{
+    width:700px;
+    height: 50px;
+}
 form{
     display:block;
     align-items: center;
@@ -9,15 +13,17 @@ body {
 
 }
 h1 {
-margin: 0;
+
 color: white;
 text-align: center;
 font-size: 50px;
+font-family: 'Poppins', sans-serif;
 border: 10px solid green;
 border-top: 15px solid #4c6c64;
-border-bottom: #4c6c64;
+border-bottom: 20px solid #4c6c64;
 border-left: 20px solid transparent;
 border-right: 20px solid transparent;
+
 
 }
 
@@ -33,11 +39,13 @@ fieldset {
     width: 1100px;
     height: 1200px ;
     margin: auto;
+    font-family:'Roboto', sans-serif; 
     background-color:#4c6c64;
 }
 legend {
-    color: white;
+    color: rgb(253, 236, 209);
     font-size: 30px;
+    font-family:'Poppins', sans-serif ;
     background-color: #4c6c64;
     border-radius: 3px;
     width: 350px;
@@ -154,18 +162,29 @@ padding: 3%;
     text-align: left;
     font-size: 30px;
     font-size: 30px;
-
 }
 
 .white {
     color: white;
-    text-align: center;
-
+    text-align: left;
+    font-size: 21px;
+    padding: 1%;
 }
 
 .center {
     margin: auto;
 }
+.center{
+    width: 300px;
+    padding: 1%;
+    color: white;
+    background-color: #4c6c64;
+    font-size: 24px;
+    font-family:'Roboto', sans-serif;
+    border: 2px solid  white;
+    border-radius: 5px;
+    margin-left: 150px;
+    }
 
 .fieldset-2 {
     width: 1100px;
@@ -179,4 +198,15 @@ padding: 3%;
 
 .letra-chica  {
     font-size: 23px; 
+}
+
+.circulo{
+    border: 18px dotted rgb(166, 193, 185);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 350px;
+    margin: 70px auto; 
+    text-align: center;
+    display: block;
 }

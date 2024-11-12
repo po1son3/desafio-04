@@ -1,0 +1,3 @@
+# Notas sobre el desafio-04
+Buenas, paso a comentar que hasta ahora ha sido mi peor trabajo, me ha costado mucho trabajo realizarlo, intentar ver cuales pueden ser las soluciones inmediatas que tenía, por lo que no voy a poder entregar los otros 3 styles, como tampoco voy a poder hacer un hover sobre los containers que van a estar(que cambie de color al seleccionar), no me sentí con las herramientas necesarias para eso, pido disculpas si el desafio no se puede aprobar o si no está como tendría que estar.
+Desde ya muchas gracias y pido de nuevo perdón.
