@@ -1,108 +1,103 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    
-
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Afiliación</title>
   </head>
   <body>
-<h1>Veni al Gym</h1>
-<form action="#post" method="post">
 
-<!-- Datos de Personales -->
-
+<h1>Veni al Gym! 💪</h1>
+<!--  Datos de Personales -->
+<form action="https://postman-echo.com/post" method="_blank">
 <fieldset>
 
-  <legend>Datos Personales</legend>
-  <div>
+  <legend>🙋‍♂️ Datos Personales 👀</legend>
+  <div  class="te">
 
+    <div class="primer-bloque">
+      
+  <div class="padding">
+      <label  for="lbl-nombre">Nombre</label>
+  </div>
+      <input class="tbag" id="lbl-nombre" type="text" required>
+      
+    </div>
+    
+    <div>
+      
+      <div class="padding-2">
+      <label for="lbl-apellido">Apellido</label>
+      </div>
+      <input class="tbag-2" id="lbl-apellido" type="text" required>
+    </div>
+    <div>
+      
+      <div class="padding-3">
+      <label for="lbl-documento">Documento</label>
+      </div>
+      <input class="tbag-3" id="lbl-documento" type="text" required>
+      
+      
+    </div>
     
     <div>
       
   
-      <label for="lbl-nombre">Nombre*</label>
-      <input id="lbl-nombre" type="text" required>
-      
-      
-    </div>
-    
-    <div>
-      
-      
-      <label for="lbl-apellido">Apellido*</label>
-      <input id="lbl-apellido" type="text" required>
-      
-      
-    </div>
-    
-    <div>
-      
-      
-      <label for="lbl-documento">Documento*</label>
-      <input id="lbl-documento" type="text" required>
-      
-      
-    </div>
-    
-    <div>
-      
-      
-      
-      <label for="lbl-nacionalidad">Nacionalidad*</label>
-      <!-- boton raro -->
-      <button>- Selecciona una opción - ▼ </button>
+      <div class="padding-4">
+      <label>Nacionalidad</label>
+      </div>
+      <button class="tbag-4">- Seleccionar - ▼ </button>
 
-     <!--  <input id="lbl-nacionalidad" type="" required> -->
-
-
-
-      
     </div>
     <div>
       
-      
-      <label for="">Contanos un poco de vos...</label>
-      <textarea name="" id=""></textarea>
+      <div class="padding-5">
+      <label>Contanos un poco de vos...</label>
+      </div>
+      <textarea class="tbag-5" name="area-grande"></textarea>
       
       
     </div>
-<p>Sexo: *</p>
+<p>Sexo: </p>
       <div>
-        <input type="radio" name="Femenino">
+        <input type="radio" name="Sexo" id="Femenino">
         <label for="Femenino">Femenino</label>
         
-        <input type="radio" name="Masculino">
+        <input type="radio" name="Sexo" id="Masculino">
         <label for="Masculino">Masculino</label>
 
-        <input type="radio" name="Otro">
+        <input type="radio" name="Sexo" id="Otro">
         <label for="Otro">Otro</label>
       </div>
 </div>
 </fieldset>
 
+<div><hr></div>
 
 <!-- Datos de contacto -->
 
-<fieldset>
+<fieldset class="fieldset-2">
   
-  <legend>Datos de Contacto</legend>
-  <div>
+  <legend>📱Datos de Contacto 📧</legend>
+  <div class="te-2">
     
     <div>
       
-      
-      <label for="Teléfono">Teléfono</label>
-      <input type="tel" placeholder="Código de área y número">
-      
+      <div class="padding-6">
+      <label>Teléfono</label>
+      </div>
+      <input class="tbag-6" type="tel" placeholder="Código de área y número" id="Teléfono">
+  
       
     </div>
     
     <div>
       
-    
-        <label for="">Dirección de correo electrónico*</label>
-        <input type="email" required placeholder="Ej: mail@gmail.com">
+        <div class="padding-7">
+        <label>Dirección de correo electrónico*</label>
+        </div>
+        <input class="tbag-7" type="email" required placeholder="Ej: mail@gmail.com">
       
   
     </div>
@@ -111,47 +106,45 @@
 </fieldset>
 
 
-
 <!-- Actividades -->
+<div><hr></div>
+<fieldset class="fieldset-3">
 
-<fieldset>
-
-  <legend>Actividades</legend>
-  <p>Por favor, indicá cuáles actividades te interesan:</p></p>
-  <div>
-
-    <div>
-      
-  <p>Sede Palermo:</p>
-        <input type="checkbox" name="Básquet">
+  <legend>🚴🏽Actividades🤸🏽</legend>
+  <div class="te-3">
+<p>Por favor, indicá cuáles actividades te interesan:</p>   
+<p>Sede Palermo:</p>
+  <div class="letra-chica">
+        <input type="checkbox" name="Deporte" id="Básquet">
         <label for="Básquet">Básquet</label>
 
-        <input type="checkbox" name="Boxeo">
+        <input type="checkbox" name="Deporte" id="Boxeo">
         <label for="Boxeo">Boxeo</label>
 
-        <input type="checkbox" name="Fútbol">
+        <input type="checkbox" name="Deporte" id="Fútbol">
         <label for="Fútbol">Fútbol</label>
 
-        <input type="checkbox" name="Tenis">
+        <input type="checkbox" name="Deporte" id="Tenis">
         <label for="Tenis">Tenis</label>
       
     
-    </div>
+  </div>
+  
 
-    <div>
-      
+  <div>  
   <p>Sede Rosario:</p>
-        <input type="checkbox" name="Básquet">
+  <div class="letra-chica">
+        <input type="checkbox" name="Deporte" id="Básquet-2">
         <label for="Básquet">Básquet</label>
 
-        <input type="checkbox" name="Fútbol">
+        <input type="checkbox" name="Deporte" id="Fútbol-2">
         <label for="Fútbol">Fútbol</label>
 
-        <input type="checkbox" name="Rugby">
+        <input type="checkbox" name="Deporte" id="Rugby">
         <label for="Rugby">Rugby</label>
 
 
-        <input type="checkbox" name="Voley">
+        <input type="checkbox" name="Deporte" id="Voley">
         <label for="Voley">Voley</label>
       
     
@@ -160,22 +153,31 @@
 </div>
 </fieldset>
 
-<div>
+
+
+<div class="white">
 <input type="checkbox" required>
-<label for="">Acepto las condiciones*</label>
+<label>Acepto las condiciones*</label>
 </div>
 
-<div>
+<div class="white">
 <input type="checkbox">
-<label for="">Deseo recibir novedades</label>
+<label>Deseo recibir novedades</label>
 </div>
 
-<p>*: campo obligatorio.</p>
-<button type="submit">Iniciar afiliación</button>
-<button type="reset">Restablecer</button>
-</for>
+
+<p class="white">*: campo obligatorio.</p>
+<div>
+<button class="center" type="submit">Iniciar afiliación</button>
+</div>
+<div>
+<button class="center" type="reset">Restablecer</button>
+</div>
 
 
+
+</form>
+</body>
 <script type="module" src="/main.js"></script>
 </body>
 </html>

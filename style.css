@@ -1,3 +1,182 @@
-input {
+form{
+    display:block;
+    align-items: center;
+    margin: auto;
+    width: 950px;
+}
+body {
+    background-color: rgb(31, 33, 33);
+
+}
+h1 {
+margin: 0;
+color: white;
+text-align: center;
+font-size: 50px;
+border: 10px solid green;
+border-top: 15px solid #4c6c64;
+border-bottom: #4c6c64;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+
+}
+
+input{
     direction: rtl;
+}
+
+p  {
+    font-size: 24px;
+}
+
+fieldset {
+    width: 1100px;
+    height: 1200px ;
+    margin: auto;
+    background-color:#4c6c64;
+}
+legend {
+    color: white;
+    font-size: 30px;
+    background-color: #4c6c64;
+    border-radius: 3px;
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.te{
+    box-sizing: border-box;
+    width: 1100px;
+    height: 1110px;
+    margin: auto;
+    background-color: rgb(166, 193, 185);
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.padding {
+    padding: 3%;
+}
+
+.tbag {
+    width:700px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.padding-2 {
+    padding: 3%;
+}
+
+.tbag-2 {
+    width:700px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.padding-3 {
+    padding: 3%;
+}
+
+.tbag-3 {
+    width:700px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.padding-4 {
+    padding: 3%;
+    
+}
+
+.tbag-4 {
+    width:700px;
+    height: 50px;
+    border-radius: 6px; 
+    text-align: left;
+}
+.padding-5 {
+    padding: 3%;
+}
+
+.tbag-5 {
+    width:700px;
+    height: 160px;
+    border-radius: 6px; 
+}
+
+radio {
+    width: 600px;
+    height: 100px;
+}
+
+.te-2 {
+    padding: 10%;
+    box-sizing: border-box;
+    width: 1100px;
+    height: 580px;
+    margin: auto;
+    background-color: rgb(166, 193, 185);
+    text-align: center;
+    font-size: 30px;
+    font-size: 30px;
+
+}
+.padding-6{
+padding: 3%;
+}
+
+.tbag-6 {
+    width:700px;
+    height: 50px;
+    border-radius: 6px;
+    text-align: left;
+}
+.padding-7 {
+padding: 3%;
+}
+.tbag-7 {
+    width:700px;
+    height: 50px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.te-3{
+    padding: 6%;
+    box-sizing: border-box;
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(166, 193, 185);
+    text-align: left;
+    font-size: 30px;
+    font-size: 30px;
+
+}
+
+.white {
+    color: white;
+    text-align: center;
+
+}
+
+.center {
+    margin: auto;
+}
+
+.fieldset-2 {
+    width: 1100px;
+    height: 650px;
+}
+
+.fieldset-3 {
+    width: 1100px;
+    height: 600px;
+}
+
+.letra-chica  {
+    font-size: 23px; 
 }
